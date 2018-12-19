@@ -18,6 +18,7 @@ public class LoginServiceImpl implements LoginService {
 
 	@Override
 	public String validate(UserDTO dto) {
+		System.out.println("Validate Method");
 		int count=0;
 		UserBO bo=null;
 		
