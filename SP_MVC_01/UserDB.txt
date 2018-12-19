@@ -1,0 +1,21 @@
+create table Userlist(uname varchar2(20),pwd varchar2(20));
+
+SQL> insert into userlist values('Nikhil','Nik123');
+
+1 row created.
+
+SQL> insert into userlist values('Rohu','Rohu123');
+
+1 row created.
+
+SQL> commit;
+
+Commit complete.
+
+SQL> select * from userlist;
+
+UNAME                PWD
+-------------------- --------------------
+Nikhil               Nik123
+Rohu                 Rohu123
+
