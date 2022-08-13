@@ -1,5 +1,5 @@
 package com.ms.api.login.bo;
-#This is scm test
+#This is scm test files
 public class UserBO {
 	//Business object 
 	private String uname;
